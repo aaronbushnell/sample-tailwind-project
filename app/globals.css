@@ -1,21 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@utility h1 {
+  @apply text-4xl font-bold;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@utility hz {
+  @apply text-4xl font-bold;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@utility hz1 {
+  @apply text-4xl font-bold;
+}
+
+@utility hz1z {
+  @apply text-4xl font-bold;
 }
