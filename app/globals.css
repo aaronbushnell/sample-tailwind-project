@@ -4,6 +4,10 @@
   @apply text-4xl font-bold;
 }
 
+@utility h-1 {
+  @apply text-4xl font-bold;
+}
+
 @utility hz {
   @apply text-4xl font-bold;
 }
